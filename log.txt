@@ -1,0 +1,207 @@
+Sun May  5 22:25:52 CEST 2019
+% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                               Dload  Upload   Total   Spent    Left  Speed
+100   617    0   617    0     0   1063      0 --:--:-- --:--:-- --:--:--  1063
+100 26.8M  100 26.8M    0     0   287k      0  0:01:35  0:01:35 --:--:--  292k
+Running pre-create checks...
+Creating machine...
+(manager1) Copying /home/berto/.docker/machine/cache/boot2docker.iso to /home/berto/.docker/machine/machines/manager1/boot2docker.iso...
+(manager1) Creating VirtualBox VM...
+(manager1) Creating SSH key...
+(manager1) Starting the VM...
+(manager1) Check network to re-create if needed...
+(manager1) Waiting for an IP...
+Waiting for machine to be running, this may take a few minutes...
+Detecting operating system of created instance...
+Waiting for SSH to be available...
+Detecting the provisioner...
+Provisioning with boot2docker...
+Copying certs to the local machine directory...
+Copying certs to the remote machine...
+Setting Docker configuration on the remote daemon...
+
+This machine has been allocated an IP address, but Docker Machine could not
+reach it successfully.
+
+SSH for the machine should still work, but connecting to exposed ports, such as
+the Docker daemon port (usually <ip>:2376), may not work properly.
+
+You may need to add the route manually, or use another related workaround.
+
+This could be due to a VPN, proxy, or host file configuration issue.
+
+You also might want to clear any VirtualBox host only interfaces you are not using.
+Checking connection to Docker...
+Docker is up and running!
+To see how to connect your Docker Client to the Docker Engine running on this virtual machine, run: docker-machine env manager1
+Running pre-create checks...
+Creating machine...
+(worker1) Copying /home/berto/.docker/machine/cache/boot2docker.iso to /home/berto/.docker/machine/machines/worker1/boot2docker.iso...
+(worker1) Creating VirtualBox VM...
+(worker1) Creating SSH key...
+(worker1) Starting the VM...
+(worker1) Check network to re-create if needed...
+(worker1) Waiting for an IP...
+Waiting for machine to be running, this may take a few minutes...
+Detecting operating system of created instance...
+Waiting for SSH to be available...
+Detecting the provisioner...
+Provisioning with boot2docker...
+Copying certs to the local machine directory...
+Copying certs to the remote machine...
+Setting Docker configuration on the remote daemon...
+
+This machine has been allocated an IP address, but Docker Machine could not
+reach it successfully.
+
+SSH for the machine should still work, but connecting to exposed ports, such as
+the Docker daemon port (usually <ip>:2376), may not work properly.
+
+You may need to add the route manually, or use another related workaround.
+
+This could be due to a VPN, proxy, or host file configuration issue.
+
+You also might want to clear any VirtualBox host only interfaces you are not using.
+Checking connection to Docker...
+Docker is up and running!
+To see how to connect your Docker Client to the Docker Engine running on this virtual machine, run: docker-machine env worker1
+Running pre-create checks...
+Creating machine...
+(worker2) Copying /home/berto/.docker/machine/cache/boot2docker.iso to /home/berto/.docker/machine/machines/worker2/boot2docker.iso...
+(worker2) Creating VirtualBox VM...
+(worker2) Creating SSH key...
+(worker2) Starting the VM...
+(worker2) Check network to re-create if needed...
+(worker2) Waiting for an IP...
+Waiting for machine to be running, this may take a few minutes...
+Detecting operating system of created instance...
+Waiting for SSH to be available...
+Detecting the provisioner...
+Provisioning with boot2docker...
+Copying certs to the local machine directory...
+Copying certs to the remote machine...
+Setting Docker configuration on the remote daemon...
+
+This machine has been allocated an IP address, but Docker Machine could not
+reach it successfully.
+
+SSH for the machine should still work, but connecting to exposed ports, such as
+the Docker daemon port (usually <ip>:2376), may not work properly.
+
+You may need to add the route manually, or use another related workaround.
+
+This could be due to a VPN, proxy, or host file configuration issue.
+
+You also might want to clear any VirtualBox host only interfaces you are not using.
+Checking connection to Docker...
+Docker is up and running!
+To see how to connect your Docker Client to the Docker Engine running on this virtual machine, run: docker-machine env worker2
+Using default tag: latest
+latest: Pulling from library/swarm
+d85c18077b82: Pulling fs layer
+1e6bb16f8cb1: Pulling fs layer
+85bac13497d7: Pulling fs layer
+85bac13497d7: Verifying Checksum
+85bac13497d7: Download complete
+1e6bb16f8cb1: Verifying Checksum
+1e6bb16f8cb1: Download complete
+d85c18077b82: Verifying Checksum
+d85c18077b82: Download complete
+d85c18077b82: Pull complete
+1e6bb16f8cb1: Pull complete
+85bac13497d7: Pull complete
+Digest: sha256:406022f04a3d0c5ce4dbdb60422f24052c20ab7e6d41ebe5723aa649c3833975
+Status: Downloaded newer image for swarm:latest
+Using default tag: latest
+latest: Pulling from library/swarm
+d85c18077b82: Pulling fs layer
+1e6bb16f8cb1: Pulling fs layer
+85bac13497d7: Pulling fs layer
+85bac13497d7: Verifying Checksum
+85bac13497d7: Download complete
+1e6bb16f8cb1: Verifying Checksum
+1e6bb16f8cb1: Download complete
+d85c18077b82: Verifying Checksum
+d85c18077b82: Download complete
+d85c18077b82: Pull complete
+1e6bb16f8cb1: Pull complete
+85bac13497d7: Pull complete
+Digest: sha256:406022f04a3d0c5ce4dbdb60422f24052c20ab7e6d41ebe5723aa649c3833975
+Status: Downloaded newer image for swarm:latest
+Using default tag: latest
+latest: Pulling from library/swarm
+d85c18077b82: Pulling fs layer
+1e6bb16f8cb1: Pulling fs layer
+85bac13497d7: Pulling fs layer
+85bac13497d7: Verifying Checksum
+85bac13497d7: Download complete
+1e6bb16f8cb1: Verifying Checksum
+1e6bb16f8cb1: Download complete
+d85c18077b82: Verifying Checksum
+d85c18077b82: Download complete
+d85c18077b82: Pull complete
+1e6bb16f8cb1: Pull complete
+85bac13497d7: Pull complete
+Digest: sha256:406022f04a3d0c5ce4dbdb60422f24052c20ab7e6d41ebe5723aa649c3833975
+Status: Downloaded newer image for swarm:latest
+Swarm initialized: current node (zyg81vy0xi0je1zknul86r4jq) is now a manager.
+
+To add a worker to this swarm, run the following command:
+
+    docker swarm join --token SWMTKN-1-03s0ggxbwckbeg4r7tim32mh2ztqxkx7sblamg3jh8cq7qzj68-axea6i2e6zgjxiowbwod7cruz 192.168.99.100:2377
+
+To add a manager to this swarm, run 'docker swarm join-token manager' and follow the instructions.
+
+This node joined a swarm as a worker.
+This node joined a swarm as a worker.
+ID                            HOSTNAME            STATUS              AVAILABILITY        MANAGER STATUS      ENGINE VERSION
+zyg81vy0xi0je1zknul86r4jq *   manager1            Ready               Active              Leader              18.09.5
+dbrq5v7ihlk33gm0ql2xovvxu     worker1             Ready               Active                                  18.09.5
+9wfrbiqt2zrgtmxfbn8ioxvs8     worker2             Ready               Active                                  18.09.5
+2cgkprqofrra4yyw207eyoal1
+overall progress: 0 out of 1 tasks
+1/1:
+overall progress: 0 out of 1 tasks
+overall progress: 1 out of 1 tasks
+verify: Waiting 5 seconds to verify that tasks are stable...
+verify: Waiting 4 seconds to verify that tasks are stable...
+verify: Waiting 3 seconds to verify that tasks are stable...
+verify: Waiting 2 seconds to verify that tasks are stable...
+verify: Waiting 1 seconds to verify that tasks are stable...
+verify: Service converged
+--2019-05-05 22:37:18--  http://192.168.99.100:8080/
+Connecting to 192.168.99.100:8080... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 612 [text/html]
+Saving to: ‘STDOUT’
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to nginx!</title>
+<style>
+    body {
+        width: 35em;
+        margin: 0 auto;
+        font-family: Tahoma, Verdana, Arial, sans-serif;
+    }
+</style>
+</head>
+<body>
+<h1>Welcome to nginx!</h1>
+<p>If you see this page, the nginx web server is successfully installed and
+working. Further configuration is required.</p>
+
+<p>For online documentation and support please refer to
+<a href="http://nginx.org/">nginx.org</a>.<br/>
+Commercial support is available at
+<a href="http://nginx.com/">nginx.com</a>.</p>
+
+<p><em>Thank you for using nginx.</em></p>
+</body>
+</html>
+
+     0K                                                       100% 2,05M=0s
+
+2019-05-05 22:37:18 (2,05 MB/s) - written to stdout [612/612]
+
+Sun May  5 22:37:18 CEST 2019

@@ -53,3 +53,8 @@ wget http://$MANAGER_IP:8080 -O -
 ```
 docker-machine rm -f manager1 worker1 worker2
 ```
+
+## Performance
+#### i7 720Q: 345"
+#### i5 8250U: 274"
+
